@@ -36,7 +36,7 @@
         font-size: 48px;
     }
     .header_area.sticky {
-        height: 50px;
+        height: 62px;
     }
     .header_area .menu_area #nav .nav-link,
     .header_area.sticky .menu_area #nav .nav-link {
@@ -45,7 +45,7 @@
     #ca-navbar {
         padding: 30px;
         border-radius: 3px;
-        background-color: #5b32b4;
+        background-color: #e97e58;
         text-align: left;
     }
     .sing-up-button {
@@ -70,7 +70,7 @@
         font-size: 30px;
     }
     .video-area {
-        height: 350px;
+        height: 400px;
     }
     .section-heading > h2 {
         font-size: 38px;
@@ -89,7 +89,7 @@
     .sing-up-button > a {
         margin-top: 4px;
         display: inline-block;
-        border: 2px solid #a883e9;
+        border: 2px solid #e97e58;
         height: 40px;
         min-width: 160px;
         line-height: 36px;
@@ -118,7 +118,7 @@
         font-size: 48px;
     }
     .header_area.sticky {
-        height: 50px;
+        height: 60px;
     }
     .header_area .menu_area #nav .nav-link,
     .header_area.sticky .menu_area #nav .nav-link {
@@ -127,7 +127,7 @@
     #ca-navbar {
         padding: 20px;
         border-radius: 3px;
-        background-color: #5b32b4;
+        background-color: #e97e58;
         text-align: left;
     }
     .sing-up-button {
@@ -141,7 +141,7 @@
         font-size: 14px;
     }
     .wellcome-heading > h2 {
-        font-size: 48px;
+        font-size: 42px;
     }
     .get-start-area .email {
         margin-bottom: 20px;
@@ -181,7 +181,7 @@
         border: 10px solid #fff;
         border-radius: 20px;
         height: 250px;
-    }
+  
     .video-area::after {
         top: -10px;
         left: -10px;
@@ -228,7 +228,7 @@
 
 @media (min-width: 480px) and (max-width: 767px) {
     .wellcome-heading > h3 {
-        font-size: 284px;
+        font-size: 250px;
     }
     .wellcome-heading > h2 {
         font-size: 70px;

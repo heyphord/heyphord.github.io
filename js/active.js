@@ -31,15 +31,16 @@
             margin: 30,
             center: true,
             dots: true,
+			autoHeight:true,
             responsive: {
                 0: {
                     items: 1
                 },
                 480: {
-                    items: 3
+                    items: 1
                 },
-                992: {
-                    items: 5
+                800: {
+                    items: 2
                 }
             }
         });
@@ -65,7 +66,6 @@
             focusOnSelect: true,
             slide: 'div',
             autoplay: true,
-            centerMode: true,
             centerPadding: '30px',
             mobileFirst: true,
             prevArrow: '<i class="fa fa-angle-left"></i>',
