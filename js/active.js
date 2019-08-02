@@ -124,8 +124,8 @@
     });
 
     var $window = $(window);
-
-    if ($window.width() > 767) {
+    var windownSize = 0
+    if ($window.width() > windownSize) {
         new WOW().init();
     }
 

@@ -456,6 +456,13 @@ p {
     width: 100%;
 }
 
+.wellcome-heading > h1 {
+    font-weight: 300;
+    color: #726a84;
+    font-size: 48px;
+    margin: 0;
+}
+
 .wellcome-heading > h2 {
     font-size: 100px;
     color: #ffffff;
@@ -527,14 +534,14 @@ p {
 }
 
 .wellcome-heading > h3 {
-    font-size: 332px;
+    font-size: 100px;
     position: absolute;
     top: -134px;
     font-weight: 900;
     left: -12px;
     z-index: -1;
     color: #fff;
-    opacity: .1;
+    opacity: .4;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=10)";
 }
 
@@ -862,7 +869,7 @@ p {
 }
 
 .single-price-plan .package-plan > h5 {
-    color: #5b32b4;
+    color: #726a84;
     font-size: 18px;
 }
 
@@ -878,11 +885,13 @@ p {
 
 .single-price-plan .package-plan .ca-price span {
     font-size: 18px;
-    color: #ef5742;
+    color: #726a84;
+;
 }
 
 .single-price-plan .plan-button > a {
-    background: #726a84;
+    background-color: #726a84;
+;
     padding: 10px 0;
     border-bottom-right-radius: 30px;
     color: #ffffff;
@@ -908,7 +917,7 @@ p {
 .single-price-plan.active .package-plan,
 .single-price-plan.active .plan-button > a,
 .single-price-plan:hover .plan-button > a {
-    background-color: #a865e1;
+    background-color: #ef5742;
 }
 
 .single-price-plan.active .package-plan .ca-price > h4,
@@ -922,8 +931,9 @@ p {
 :: 10.0 Testimonials Area CSS
 -------------------------- */
 
-.clients-feedback-area .client-name > h5 {
-    color: #726a84;
+.clients-feedbck-area .client-name > h5 {
+   color: #726a84;
+
     font-size: 22px;
     margin-top: 5px;
 }
