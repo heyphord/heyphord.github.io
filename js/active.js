@@ -24,23 +24,23 @@
             navText: ["<i class='pe-7s-angle-left'</i>", "<i class='pe-7s-angle-right'</i>"]
         });
         $(".app_screenshots_slides").owlCarousel({
-            items: 1,
+            //items: 1,
             loop: true,
             autoplay: true,
             smartSpeed: 800,
             margin: 30,
             center: true,
             dots: true,
-			autoHeight:true,
+			autoHeight:false,
             responsive: {
                 0: {
                     items: 1
                 },
                 480: {
-                    items: 1
+                    items: 2
                 },
                 800: {
-                    items: 2
+                    items: 3
                 }
             }
         });
