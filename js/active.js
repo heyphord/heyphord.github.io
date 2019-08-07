@@ -57,7 +57,7 @@
             asNavFor: '.slider-nav'
         });
         $('.slider-nav').slick({
-            slidesToShow: 3,
+            slidesToShow: 1,
             slidesToScroll: 1,
             speed: 500,
             asNavFor: '.slider-for',
@@ -124,7 +124,7 @@
     });
 
     var $window = $(window);
-    var windownSize = 0
+    var windownSize = 767
     if ($window.width() > windownSize) {
         new WOW().init();
     }
