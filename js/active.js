@@ -31,7 +31,7 @@
             margin: 30,
             center: true,
             dots: true,
-			autoHeight:false,
+			autoHeight:true,
             responsive: {
                 0: {
                     items: 1
@@ -124,7 +124,7 @@
     });
 
     var $window = $(window);
-    var windownSize = 767
+    var windownSize = 0//767
     if ($window.width() > windownSize) {
         new WOW().init();
     }

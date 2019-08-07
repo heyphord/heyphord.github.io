@@ -1,10 +1,11 @@
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 992px)/* and (max-width: 1199px)*/ {
     .menu_area .navbar-brand {
         font-size: 42px;
     }
     .menu_area #nav .nav-link {
         padding: 35px 7.5px;
     }
+    
     .sing-up-button > a {
         color: #fff;
         height: 40px;
@@ -58,8 +59,11 @@
         right: 0;
     }
     .wellcome-heading {
-        margin-bottom: 70px;
+        margin-bottom: 40px;
     }
+
+    
+
     .single-special {
         padding: 30px 10px;
     }
@@ -68,6 +72,7 @@
     }
     .special_description_content > h2 {
         font-size: 30px;
+        padding-left: 0px;
     }
     .video-area {
         height: 400px;
@@ -138,10 +143,10 @@
         top: 0;
     }
     .welcome_text .cd-intro > p {
-        font-size: 14px;
+        font-size: 12px;
     }
     .wellcome-heading > h2 {
-        font-size: 42px;
+        font-size: 20px;
     }
     .get-start-area .email {
         margin-bottom: 20px;
@@ -182,6 +187,7 @@
         border-radius: 20px;
         height: 250px;
   
+    }
     .video-area::after {
         top: -10px;
         left: -10px;
@@ -192,7 +198,7 @@
         border-radius: 20px;
     }
     .clients-feedback-area .client-description > p {
-        font-size: 20px;
+        font-size: 15px;
     }
     .clients-feedback-area .slick-slide img {
         width: 60px !important;
@@ -213,7 +219,7 @@
         margin-top: 30px;
     }
     .wellcome-heading > h3 {
-        font-size: 252px;
+        font-size: 150px;
         top: -105px;
         left: -1px;
     }
@@ -229,9 +235,10 @@
 @media (min-width: 480px) and (max-width: 767px) {
     .wellcome-heading > h3 {
         font-size: 250px;
+        top: -139px;
     }
     .wellcome-heading > h2 {
-        font-size: 70px;
+        font-size: 25px;
     }
     .welcome-thumb {
         bottom: -109px;
@@ -240,9 +247,7 @@
     .wellcome-heading {
         margin-bottom: 50px;
     }
-    .wellcome-heading > h3 {
-        top: -139px;
-    }
+    
     .get-start-area .email {
         max-width: 370px;
     }

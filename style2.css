@@ -233,7 +233,7 @@ p {
 
 .section-heading > h2 {
     font-weight: 300;
-    color: #726a84;
+    color: white;
     font-size: 48px;
     margin: 0;
 }
@@ -1241,7 +1241,7 @@ p {
 }
 
 .footer-contact-area {
-    background: #f5f9fc;
+    background: grey;
 }
 
 .footer-text > p {
