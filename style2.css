@@ -20,8 +20,7 @@
 @import 'css/owl.carousel.min.css';
 @import 'css/slick.css';
 @import 'css/font-awesome.min.css';
-@import 'css/themify-icons.css';
-@import 'css/ionicons.min.css';
+
 
 /* --------------------------
 :: 1.0 Base CSS Start
@@ -210,9 +209,9 @@ li {
 
 p {
     color: #726a84;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 300;
-    margin-top: 0;
+    margin-top: 10px;
     text-align: center;
 }
 
@@ -314,20 +313,7 @@ p {
 :: 13.0 Contact Area CSS Start
 -------------------------- */
 
-.address-text > p,
-.phone-text > p,
-.social-text > p,
-.email-text > p {
-    font-size: 18px;
-    margin-bottom: 10px;
-}
 
-.address-text > p > span,
-.phone-text > p > span,
-.social-text > p > span,
-.email-text > p > span {
-    color: #726a84;
-}
 
 .footer-contact-area .line-shape {
     margin-left: 0;
@@ -341,21 +327,13 @@ p {
     margin-bottom: 50px;
 }
 
-#name {
+.f-input {
     font-size: 18px;
-    padding: 15px 15px;
+    padding: 12px 12px;
     border-radius: 25px 25px 25px 0;
 }
 
-#email {
-    font-size: 18px;
-    padding: 15px 15px;
-    border-radius: 25px 25px 25px 0;
-}
 
-#message {
-    border-radius: 25px 25px 25px 0;
-}
 
 .btn.submit-btn {
     background: #ef5742;
@@ -384,7 +362,11 @@ p {
     margin-bottom: 50px;
 }
 
-/*My own distin*/
+
+/* --------------------------
+:: 14.0 Form template css
+-------------------------- */
+
 
 figure {
     margin-bottom: 50px;
@@ -499,7 +481,8 @@ display-flex, .display-flex, .display-flex-center, .signup-content, .signin-cont
         font-size: 20px;
         color: #ef5742;
         display: block;
-        text-align: center; }
+        text-align: center;
+     }
 
   
   @media screen and (max-width: 1200px) {
