@@ -210,9 +210,10 @@ li {
 
 p {
     color: #726a84;
-    font-size: 16px;
+    font-size: 30px;
     font-weight: 300;
     margin-top: 0;
+    text-align: center;
 }
 
 .heading-text > p {
@@ -436,6 +437,8 @@ display-flex, .display-flex, .display-flex-center, .signup-content, .signin-cont
     padding-bottom: 87px; }
   
   .social-login {
+      justify-content: center;
+      /*flex-direction: column;*/
     align-items: center;
     -moz-align-items: center;
     -webkit-align-items: center;
@@ -490,7 +493,7 @@ display-flex, .display-flex, .display-flex-center, .signup-content, .signin-cont
     
 .signup-image {
     width: auto; 
-    margin: 10px}
+    margin: 30px auto;}
 
     .signup-image-link {
         font-size: 20px;
@@ -527,11 +530,6 @@ display-flex, .display-flex, .display-flex-center, .signup-content, .signin-cont
       padding: 0 30px; }
   
     
-  
-    
-
-      
-  
     .social-login {
       justify-content: center;
       -moz-justify-content: center;
