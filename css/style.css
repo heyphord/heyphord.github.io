@@ -204,8 +204,8 @@ color: #A46F20;
 #clients .client-item{
 
    padding-top: 90px;
-  height: 300px;
-  width: 300px; 
+  height: 250px;
+  width: 250px; 
   border: #E4BF64 5px solid;
   border-radius: 50%;
   margin: auto;
@@ -232,7 +232,7 @@ font-size: 1.5em;
 
 #contact #contact-inputs{
 
-  padding: 0 100px;
+  padding: 0px 10px;
 }
 
 #contact #contact-enquiries{
