@@ -16,16 +16,21 @@
     <!-- Slick -->
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet" href="css/slick-theme.css">
+
+    <!-- ANIMATE.CSS -->
+    <link rel="stylesheet" href="css/animate.min.css">
+    <!-- <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"> -->
+
     <!-- Font Awesome Icon -->
     <!-- <link rel="stylesheet" href="css/font-awesome.min.css"> -->
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/fontawesome.min.js"> -->
 
 
     <!-- Custom stlylesheet -->
-    <link type="text/css" rel="stylesheet" href="css/style.css?v=2020-04-28T18:10" />
+    <link type="text/css" rel="stylesheet" href="css/style.css?v=2020-04-28T21:27" />
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar">
     <!-- HEADER -->
     <header>
         <!-- TOP HEADER -->
@@ -52,9 +57,10 @@
         <div id="main-header">
             <div class="container-fluid">
                 <!-- Image and text -->
-                <nav class="navbar sticky-top navbar-expand-lg navbar-light">
+                <nav  class="navbar  navbar-expand-lg navbar-light ">
+
                     <a class="navbar-brand" href="#">
-                        <img src="img/logo.png"  class="d-inline-block align-top" alt="">
+                        <img src="img/logo.png" class="d-inline-block align-top" alt="">
                         Janie Hays
                     </a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -64,19 +70,19 @@
 
                     <div class="collapse navbar-collapse justify-content-end " id="navbarNav">
                         <ul class="navbar-nav">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+                            <li class="nav-item ">
+                                <a class="nav-link active" href="#carousel">HOME <span class="sr-only">(current)</span></a>
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link" href="#">PRODUCTS</a>
+                                <a class="nav-link" href="#products">PRODUCTS</a>
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link" href="#">ABOUT US</a>
+                                <a class="nav-link" href="#about">ABOUT US</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">CONTACT US</a>
+                                <a class="nav-link" href="#contact">CONTACT US</a>
                             </li>
 
                         </ul>
@@ -91,227 +97,231 @@
     </header>
     <!-- /HEADER -->
 
-    <!-- CAROUSEL -->
-    <div id="carousel">
-        <div class="container-fluid">
-            <div class="row slick-carousel ">
-                <!-- <div class="carousel-image-wrapper col-12 " style="background-image: url('/img/supply2.jpg');"> -->
-                <div class="carousel-image-wrapper col-12 " >
-                    <img    src="img/supply2.jpg" alt="">
-                    <div class="carousel-text">
-                        <h1> WE CATER FOR ALL YOUR NEEDS</h1>
-                        <a href="tel:0249404295" class="btn btn-outline-light">CALL NOW</a>
+    <div >
+
+        <!-- CAROUSEL -->
+        <div id="carousel">
+            <div class="container-fluid">
+                <div class="row slick-carousel ">
+                    <!-- <div class="carousel-image-wrapper col-12 " style="background-image: url('/img/supply2.jpg');"> -->
+                    <div class="carousel-image-wrapper col-12 ">
+                        <img src="img/supply2.jpg" alt="">
+                        <div class="carousel-text wow fadeInLeft">
+                            <h1> WE CATER FOR ALL YOUR NEEDS</h1>
+                            <a href="tel:0249404295" class="btn btn-outline-light wow fadeInUpBig">CALL NOW</a>
+                        </div>
+    
                     </div>
-
-                </div>
-                <div class="carousel-image-wrapper col-12 " >
-                    <img   src="img/travel2.jpg" alt="">
-
-                    <div class="carousel-text">
-                        <h1> WE CATER FOR ALL YOUR NEEDS</h1>
-                        <a href="tel:0249404295" class="btn btn-outline-light">CALL NOW</a>
+                    <div class="carousel-image-wrapper col-12 ">
+                        <img src="img/travel2.jpg" alt="">
+    
+                        <div class="carousel-text ">
+                            <h1> WE CATER FOR ALL YOUR NEEDS</h1>
+                            <a href="tel:0249404295" class="btn btn-outline-light">CALL NOW</a>
+                        </div>
+    
                     </div>
-
                 </div>
             </div>
+    
         </div>
-
-    </div>
-    <!-- /CAROUSEL -->
-
-    <!-- PRODUCTS -->
-    <section id="products">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-sm-12 my-3 text-center">
-                    <h1>OUR PRODUCTS</h1>
-                </div>
-
-                <div class="product-item col-md-6 col-lg-3 shadow text-center">
-                    <div>
-                        <div class="p-3"><i class="fas fa-luggage-cart fa-4x"></i></div>
-                        <h3 class="p-3">SUPPLY OF GOODS</h3>
-                        <p>SHORT DESCRIPTION GOES HERE</p>
+        <!-- /CAROUSEL -->
+    
+        <!-- PRODUCTS -->
+        <section id="products">
+            <div class="container-fluid">
+                <div class="row wow bounceInUp">
+                    <div class="col-sm-12 my-3 text-center">
+                        <h1>OUR PRODUCTS</h1>
                     </div>
-                </div>
-                <div class="product-item col-md-6 col-lg-3 shadow text-center">
-                    <div>
-                        <div class="p-3"><i class="fas fa-plane-departure fa-4x"></i></div>
-                        <h3 class="p-3">TRAVEL</h3>
-                        <p>SHORT DESCRIPTION GOES HERE</p>
-                    </div>
-                </div>
-                <div class="product-item col-md-6 col-lg-3 shadow text-center">
-                    <div>
-                        <div class="p-3"><i class="fa fa-tools fa-4x"></i></div>
-                        <h3 class="p-3">CONSTRUCTION</h3>
-                        <p>SHORT DESCRIPTION GOES HERE</p>
-                    </div>
-                </div>
-                <div class="product-item col-md-6 col-lg-3 shadow text-center">
-                    <div>
-                        <div class="p-3"><i class="fas fa-shopping-cart fa-4x"></i></div>
-                        <h3 class="p-3">SHOPPING</h3>
-                        <p>SHORT DESCRIPTION GOES HERE</p>
-                    </div>
-                </div>
-
-
-
-            </div>
-
-        </div>
-    </section>
-    <!-- /PRODUCTS -->
-
-    <!-- ABOUT US -->
-    <section id="about">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-sm-12 my-3  text-center">
-                    <h1>ABOUT US</h1>
-                </div>
-            </div>
-
-            <div class="row pb-5">
-
-                <div class="col-md-8 about-text shadow p-4">
-                    <h3>JANIE HAYS LIMITED</h3>
-
-                    <p style="text-transform: uppercase;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo
-                        dolore ex vel. Enim tempore sint temporibus distinctio totam eum perferendis dolores, et
-                        inventore, neque corrupti at cumque dolor! Soluta, fugit.</p>
-                    <p style="text-transform: uppercase;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo
-                        dolore ex vel. Enim tempore sint temporibus distinctio totam eum perferendis dolores, et
-                        inventore, neque corrupti at cumque dolor! Soluta, fugit.</p>
-                    <p style="text-transform: uppercase;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo
-                        dolore ex vel. Enim tempore sint temporibus distinctio totam eum perferendis dolores, et
-                        inventore, neque corrupti at cumque dolor! Soluta, fugit.</p>
-
-                </div>
-                <div class="col-md-4 about-image text-center">
-                    <img src="img/logo.png" alt="" srcset="" style="width: 70%;">
-                </div>
-
-            </div>
-
-        </div>
-    </section>
-    <!-- /ABOUT US -->
-
-    <!-- OUR CLIENT -->
-    <section id="clients">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-sm-12 my-3 text-center">
-                    <h1>OUR CLIENTS</h1>
-                </div>
-            </div>
-
-            <div class="row slick-products ">
-
-                <div class="">
-                    <div class="client-item  shadow text-center ">
+    
+                    <div class="product-item col-md-6 col-lg-3 shadow text-center wow bounceInUp">
                         <div>
-                            <img class="img-fluid" src="img/aliied logo.png" alt="">
+                            <div class="p-3"><i class="fas fa-luggage-cart fa-4x"></i></div>
+                            <h3 class="p-3">SUPPLY OF GOODS</h3>
+                            <p>SHORT DESCRIPTION GOES HERE</p>
                         </div>
                     </div>
-                </div>
-
-                <div class="">
-                    <div class="client-item  shadow text-center">
+                    <div class="product-item col-md-6 col-lg-3 shadow text-center wow bounceInUp">
                         <div>
+                            <div class="p-3"><i class="fas fa-plane-departure fa-4x"></i></div>
+                            <h3 class="p-3">TRAVEL</h3>
+                            <p>SHORT DESCRIPTION GOES HERE</p>
+                        </div>
+                    </div>
+                    <div class="product-item col-md-6 col-lg-3 shadow text-center wow bounceInUp">
+                        <div>
+                            <div class="p-3"><i class="fa fa-tools fa-4x"></i></div>
+                            <h3 class="p-3">CONSTRUCTION</h3>
+                            <p>SHORT DESCRIPTION GOES HERE</p>
+                        </div>
+                    </div>
+                    <div class="product-item col-md-6 col-lg-3 shadow text-center wow bounceInUp">
+                        <div>
+                            <div class="p-3"><i class="fas fa-shopping-cart fa-4x"></i></div>
+                            <h3 class="p-3">SHOPPING</h3>
+                            <p>SHORT DESCRIPTION GOES HERE</p>
+                        </div>
+                    </div>
+    
+    
+    
+                </div>
+    
+            </div>
+        </section>
+        <!-- /PRODUCTS -->
+    
+        <!-- ABOUT US -->
+        <section id="about">
+            <div class="container-fluid">
+                <div class="row wow bounceInUp">
+                    <div class="col-sm-12 my-3  text-center">
+                        <h1>ABOUT US</h1>
+                    </div>
+                </div>
+    
+                <div class="row pb-5">
+    
+                    <div class="col-md-8 about-text shadow p-4 wow bounceInUp" >
+                        <h3>JANIE HAYS LIMITED</h3>
+    
+                        <p style="text-transform: uppercase;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo
+                            dolore ex vel. Enim tempore sint temporibus distinctio totam eum perferendis dolores, et
+                            inventore, neque corrupti at cumque dolor! Soluta, fugit.</p>
+                        <p style="text-transform: uppercase;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo
+                            dolore ex vel. Enim tempore sint temporibus distinctio totam eum perferendis dolores, et
+                            inventore, neque corrupti at cumque dolor! Soluta, fugit.</p>
+                        <p style="text-transform: uppercase;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo
+                            dolore ex vel. Enim tempore sint temporibus distinctio totam eum perferendis dolores, et
+                            inventore, neque corrupti at cumque dolor! Soluta, fugit.</p>
+    
+                    </div>
+                    <div class="col-md-4 about-image text-center wow bounceInUp">
+                        <img src="img/logo.png" alt="" srcset="" style="width: 70%;">
+                    </div>
+    
+                </div>
+    
+            </div>
+        </section>
+        <!-- /ABOUT US -->
+    
+        <!-- OUR CLIENT -->
+        <section id="clients">
+            <div class="container-fluid">
+                <div class="row wow bounceInUp">
+                    <div class="col-sm-12 my-3 text-center">
+                        <h1>OUR CLIENTS</h1>
+                    </div>
+                </div>
+    
+                <div class="row slick-products wow bounceInUp">
+    
+                    <div class="">
+                        <div class="client-item  shadow text-center ">
+                            <div>
+                                <img class="img-fluid" src="img/aliied logo.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="">
+                        <div class="client-item  shadow text-center">
+                            <div>
+                                <img class="img-fluid" src="img/GEPA-Logo.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="">
+    
+                        <div class="client-item  shadow text-center">
+    
                             <img class="img-fluid" src="img/GEPA-Logo.png" alt="">
+    
                         </div>
                     </div>
                 </div>
-                <div class="">
-
-                    <div class="client-item  shadow text-center">
-
-                        <img class="img-fluid" src="img/GEPA-Logo.png" alt="">
-
+            </div>
+        </section>
+        <!-- /CLEIENTS -->
+    
+        <!-- CONTACT US -->
+        <section id="contact">
+            <div class="container-fluid">
+                <div class="row wow bounceInUp">
+                    <div class="col-sm-12 m-3 text-center">
+                        <h1>CONTACT US</h1>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
-    <!-- /CLEIENTS -->
-
-    <!-- CONTACT US -->
-    <section id="contact">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-sm-12 m-3 text-center">
-                    <h1>CONTACT US</h1>
-                </div>
-            </div>
-
-            <div class="row ">
-
-                <div class="col-md-6">
-                    <div id="contact-inputs">
-                        <form>
-                            <div class="form-group">
-                                <input type="text" placeholder="NAME" class="form-control">
-                            </div>
-                            <div class="form-group">
-                                <input type="text" placeholder="EMAIL" class="form-control">
-                            </div>
-                            <div class="form-group">
-
-                                <textarea placeholder="MESSAGE" name="" id="" ></textarea>
-
-                            </div>
-
-                            <button type="submit" class="btn btn-outline-light">SEND</button>
-                        </form>
-
+    
+                <div class="row ">
+    
+                    <div class="col-md-6 mb-5 wow bounceInUp">
+                        <div id="contact-inputs">
+                            <form id="sendMail">
+                                <div class="form-group">
+                                    <input  id="name" type="text" placeholder="NAME" class="form-control" required>
+                                </div>
+                                <div class="form-group">
+                                    <input id="subject" type="text" placeholder="SUBJECT" class="form-control" required>
+                                </div>
+                                <div class="form-group">
+                                    
+                                    <textarea id="message" placeholder="MESSAGE" class="form-control" required></textarea>
+    
+                                </div>
+                                
+                                <button type="submit" class="btn btn-outline-light btn-block">SEND EMAIL</button>
+                            </form>
+    
+                        </div>
                     </div>
-                </div>
-
-                <div class="col-md-6">
-                    <div id="contact-enquiries">
-                        <h3>DO YOU HAVE ANY ENQUIRIES?</h3>
-                        <ul class="nav flex-column">
-                            <li class="nav-item"><a class="nav-link" href="tel:0249404295"><i class="fa fa-phone"></i>
-                                    0249404295 |
-                                    0240965750</a></li>
-                            <li class="nav-item"><a target="_top" class="nav-link"
-                                    href="mailto:janiehayslimited@gmail.com"><i class="fas fa-envelope"></i>
-                                    janiehayslimited@gmail.com</a></li>
-                            <li class="nav-item"><a target="_blank" class="nav-link"
-                                    href="https://facebook.com/janiehayslimited"><i class="fab fa-facebook-square"></i>
-                                    Janie
-                                    hays</a>
-                            </li>
-                        </ul>
+    
+                    <div class="col-md-6 wow bounceInUp">
+                        <div id="contact-enquiries">
+                            <h3>DO YOU HAVE ANY ENQUIRIES?</h3>
+                            <ul class="nav flex-column">
+                                <li class="nav-item"><a class="nav-link" href="tel:0249404295"><i class="fa fa-phone"></i>
+                                        0249404295 |
+                                        0240965750</a></li>
+                                <li class="nav-item"><a target="_top" class="nav-link"
+                                        href="mailto:janiehayslimited@gmail.com"><i class="fas fa-envelope"></i>
+                                        janiehayslimited@gmail.com</a></li>
+                                <li class="nav-item"><a target="_blank" class="nav-link"
+                                        href="https://facebook.com/janiehayslimited"><i class="fab fa-facebook-square"></i>
+                                        Janie
+                                        hays</a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
+    
                 </div>
-
             </div>
-        </div>
-        </div>
-    </section>
-    <!-- /CONTACT US -->
+            </div>
+        </section>
+        <!-- /CONTACT US -->
+    </div>
 
     <!-- Font awesome -->
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 
     <!-- jQuery Plugins -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-        crossorigin="anonymous"></script>
-        <!-- SLICK -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"     crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"   integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"       crossorigin="anonymous"></script>
+    
+    <!-- SLICK -->
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    
+    <!-- wow -->
+    <script src="js/wow.min.js"></script>
 
-    <script src="js/main.js?v=2020-04-28T18:10"></script>
+    <!-- smooth scrool -->
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+
+    <script src="js/main.js?v=2020-04-28T21:26"></script>
 
 </body>
 
