@@ -267,11 +267,11 @@ font-size: 1.5em;
 
   /* carousel */
   #carousel .carousel-image-wrapper img{
-    height: 200px;
+    height: 250px;
   }
   #carousel .carousel-text h1{
     
-    font-size: 1.6em;  
+    font-size: 1.5em;  
   }
 }
 
