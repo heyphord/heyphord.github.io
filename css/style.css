@@ -41,7 +41,8 @@ Table OF Contents
 body {
   /* font-family: 'finitionFont', 'Montserrat', sans-serif; */
   font-family: 'Montserrat', sans-serif;
-  /* font-weight: 400; */
+  font-weight: 600;
+  font-style: italic;
   font-size: 10pt;
   color: #A46F20;
   position: relative;
@@ -194,7 +195,7 @@ color: #A46F20;
 
 #products .product-item{
   /* border: 0px #7070705e solid; */
-  height: 250px;
+  /* height: 300px; */
   color: #54370C;
     
 }
