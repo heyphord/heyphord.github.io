@@ -36,8 +36,11 @@ Table OF Contents
 
 @import "font-faces.css";
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;600&display=swap');
+
 body {
-  font-family: 'finitionFont', 'Montserrat', sans-serif;
+  /* font-family: 'finitionFont', 'Montserrat', sans-serif; */
+  font-family: 'Montserrat', sans-serif;
   /* font-weight: 400; */
   font-size: 10pt;
   color: #A46F20;
@@ -116,6 +119,7 @@ section{
 #main-header .navbar-brand{
   color: #A46F20;
 font-size: 3.5em;
+font-family: 'finitionFont', 'Montserrat', sans-serif;
 }
 
 #main-header img{
@@ -259,6 +263,7 @@ font-size: 1.5em;
 \*---------------------------*/
 #footer{
   background-color: #54370C;
+  margin-top: -20px;
 }
 
 
