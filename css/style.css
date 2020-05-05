@@ -71,6 +71,7 @@ ul, ol {
 
 input, textarea{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
 }
 
 /*----------------------------*\
@@ -96,7 +97,7 @@ section{
 \*----------------------------*/
 #top-header{
 
-  background-color: #A46F20;
+  background-color: #54370C;
   color: white;
 }
 
