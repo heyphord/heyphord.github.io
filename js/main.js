@@ -1,4 +1,5 @@
 
+	//Author: Hayford - heyphord@gmail.com
 	/////////////////////////////////////////
 
 	//Carousel img Slick
@@ -13,8 +14,35 @@
 	$('.slick-products').slick({
 		infinite: true,
 		dots: true,
+		slidesToShow: 3,
 		arrows: false,
 		autoplay: true,
+		responsive: [
+			{
+			  breakpoint: 1024,
+			  settings: {
+				slidesToShow: 3,
+				slidesToScroll: 3,
+				
+			  }
+			},
+			{
+				breakpoint: 780,
+				settings: {
+				  slidesToShow: 2,
+				  slidesToScroll: 2
+				}
+			  }
+			  ,
+			{
+			  breakpoint: 500,
+			  settings: {
+				slidesToShow: 1,
+				slidesToScroll: 1
+			  }
+			}
+			
+		  ]
   
   });
 
