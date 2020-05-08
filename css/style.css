@@ -223,12 +223,17 @@ color: #54370C}
 
 #clients .client-item{
 
-   padding-top: 90px;
   height: 250px;
   width: 250px; 
   border: #E4BF64 5px solid;
   border-radius: 50%;
   margin: auto;
+}
+#clients .client-item img{
+  padding-top: 35%;
+
+  width: 80%;
+  display: inline;
 }
 
 /*----------------------------*\

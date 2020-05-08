@@ -4,7 +4,7 @@
 	//Carousel img Slick
 	$('.slick-carousel').slick({
 		dots: true,
-		arrows: true,
+		arrows: false,
 		infinite: true, 
 		autoplay: true,
   });
@@ -13,7 +13,7 @@
 	$('.slick-products').slick({
 		infinite: true,
 		dots: true,
-		arrows: true,
+		arrows: false,
 		autoplay: true,
   
   });
