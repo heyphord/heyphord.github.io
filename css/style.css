@@ -92,9 +92,7 @@ section{
   margin-bottom: 20px;
 }
 
-.section-heading{
 
-}
 
 /*----------------------------*\
 	Top Header
@@ -158,6 +156,7 @@ color: #A46F20;
 
 #carousel .carousel-text{
   
+  width: 70%;
   position: absolute;
   left: 10%;
   top: 10%;
@@ -284,14 +283,16 @@ font-size: 1.5em;
 
 @media only screen and (max-width: 767px) {
 
+  
 
   /* carousel */
   #carousel .carousel-image-wrapper img{
     height: 250px;
   }
+  
   #carousel .carousel-text h1{
     
-    font-size: 1.5em;  
+    font-size: 1.2em;  
   }
 }
 
