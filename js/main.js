@@ -5,7 +5,7 @@
 
 //Carousel img Slick
 $('.gallery-slick, .team-slick').slick({
-	infinite: false,
+	infinite: true,
 	dots: true,
 	slidesToShow: 4,
 	arrows: false,
