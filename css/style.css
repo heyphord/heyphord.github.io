@@ -1,0 +1,367 @@
+/*
+Author: Hayford - heyphord@gmail.com
+
+Colors:
+	Body 		: #333
+	Headers 	: #2B2D42
+	Primary 	: #D10024
+	Dark 		: #15161D ##1E1F29
+	Grey 		: #E4E7ED #FBFBFC #8D99AE #B9BABC
+
+Fonts: Montserrat
+
+Table OF Contents
+------------------------------------
+1 > GENERAL
+------ Typography
+------ Buttons
+------ Inputs
+------ Sections
+------ Breadcrumb
+2 > HEADER
+------ Top header
+------ Logo
+------ Search
+------ Cart
+
+------------------------------------*/
+
+/*=========================================================
+	01 -> GENERAL
+===========================================================*/
+
+/*----------------------------*\
+	Typography
+\*----------------------------*/
+
+/* @import "font-faces.css"; */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;600&display=swap'); */
+
+
+/*----------------------------*\
+	Color
+\*----------------------------*/
+:root {
+  --primary-color: #1F055B;
+  --secondary-color: #F06F22;
+  --primary-text-color:#1F055B;
+}
+
+body {
+  
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 600;
+  font-size: 10pt;
+  color: var(--primary-text-color);
+  position: relative;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #1F055B;
+  font-weight: 700;
+  margin: 0 0 10px;
+}
+
+a {
+  color: white;
+  font-weight: 500;
+  -webkit-transition: 0.2s color;
+  transition: 0.2s color;
+}
+
+a:hover, a:focus {
+  color: #F06F22;
+  text-decoration: none;
+  outline: none;
+}
+
+ul, ol {
+  margin: 0;
+  padding: 0;
+  list-style: none
+}
+
+/* input, textarea{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+} */
+
+/*----------------------------*\
+	Buttons
+\*----------------------------*/
+
+.primary-button{
+  background-color: var(--secondary-color);
+  color: white;
+}
+
+.secondary-button{
+  background-color: var(--primary-color);
+  color: white;
+}
+
+
+/*----------------------------*\
+	Section
+\*----------------------------*/
+section{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+section hr{
+  margin-top: -10px;
+  width: 150px;
+  border-top: 3px solid var(--secondary-color);
+
+}
+
+
+/*----------------------------*\
+	Top Header
+\*----------------------------*/
+#top-header{
+
+  background-color: var(--primary-color);
+  color: white;
+}
+
+#top-header a {
+  color: white;
+  font-weight: 50;
+  font-size: 1em;
+}
+
+ 
+/*----------------------------*\
+	HERO image
+\*----------------------------*/
+
+#hero-image{
+  background-image: url(../img/big-image-bg2.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/*----------------------------*\
+	Main Header
+\*----------------------------*/
+#main-header {
+  color: white;
+  background-color:rgba(0,0, 0, 0.5);
+  
+}
+
+#main-header img{
+   
+   height: 70px;
+}
+
+#main-header li{
+font-size: 2em;
+margin-right: 30px;
+}
+
+#main-header li a.active , #main-header li a:hover {
+  color: var(--secondary-color);
+}
+
+#main-header li a{
+  color: white;
+}
+
+
+ 
+/*----------------------------*\
+	Front Page Caption
+\*----------------------------*/
+
+
+#frontpage-caption{
+  
+  height: 500px;
+  padding-top: 8%;
+}
+
+
+#frontpage-caption h1{
+  color: white;
+}
+
+
+
+/*----------------------------*\
+	OUR MISSION
+\*----------------------------*/
+
+#mission{
+  background-color: #F5F5F5;
+}
+#mission img{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+
+}
+#mission p{
+
+  color: black;
+  font-size: 1.3em;
+  
+}
+
+/*----------------------------*\
+	SUPPORT
+\*----------------------------*/
+
+#support{
+background-image: url(../img/Donate-Volunteer.png);
+background-size: cover;
+background-position: center;
+/* height: 400px; */
+}
+
+#support .volunteer{
+
+  height: 300px;
+}
+
+#support .donate{
+height: 300px;
+}
+
+#support .donate-text-wrapper{
+position: absolute;
+bottom: 2%;  
+right: 1%;
+}
+#support h1{
+
+  color: white;
+}
+
+/*----------------------------*\
+	Gallery
+\*----------------------------*/
+
+#gallery{
+  background-color: #f7ebe4;
+  margin-top: -10px;
+}
+#gallery .gallery-item{
+
+  height: 250px;
+  width: 200px; 
+  border: var(--secondary-color) 1px solid;
+  /* margin-right: 10px;; */
+  /* border: #E4BF64 5px solid; */
+  /* margin: auto; */
+}
+
+#gallery .gallery-item img{
+
+  height: auto;
+  width: 250px; 
+  /* border-radius: 50%; */
+  /* margin: auto; */
+} 
+
+/*----------------------------*\
+	Contact Us
+\*----------------------------*/
+
+#team .team-item{
+  width: 200px;
+
+}
+
+#team img{
+  width: 100%;
+}
+/*----------------------------*\
+	Contact Us
+\*----------------------------*/
+
+#contact{
+  background-image: url('/img/contactus-bg.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+#contact h1 ,#contact h4 {
+  color: white;
+  
+
+}
+
+#contact #contact-inputs{
+
+  padding: 0px 10px;
+}
+
+/*----------------------------*\
+	Footer
+\*---------------------------*/
+#footer{
+  background-color: var(--primary-color);
+  color: white;
+  margin-top: -10px;
+}
+
+#footer h3, h6{
+  color: white;
+}
+
+/*----------------------------*\
+	Copyright
+\*---------------------------*/
+#copyright{
+  background-color: var(--secondary-color);
+  margin-top: -20px;
+}
+
+
+
+/*=========================================================
+	13 -> RESPONSIVE
+===========================================================*/
+
+@media only screen and (max-width: 1201px) {}
+
+@media only screen and (max-width: 991px) {}
+
+@media only screen and (max-width: 767px) {
+
+  
+
+  /* carousel */
+  #carousel .carousel-image-wrapper img{
+    height: 250px;
+  }
+  
+  #carousel .carousel-text h1{
+    
+    font-size: 1.2em;  
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  /* main header */
+  #main-header .navbar-brand{
+  font-size: 2em;
+  }
+
+  #main-header img{
+      height: 50px;
+  }
+
+  #main-header li{
+    font-size: 1.5em;
+    
+  }
+
+  
+
+}
