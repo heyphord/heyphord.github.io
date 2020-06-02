@@ -49,8 +49,10 @@
                 </ul>
 
                 <div>
-                    <a class="btn btn-sm primary-button m-1" href="#" role="button">DONATE</a>
-                    <a class="btn btn-sm primary-button m-1" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSc1fyRbQ9ziaJsYf1t942vak0ikYadlyVZt0YVQsZICZ4EJVA/viewform" role="button">VOLUNTEER</a>
+                    <a class="btn btn-sm primary-button m-1" href="#" role="button" data-toggle="modal" data-target="#donateModal">DONATE</a>
+                    <a class="btn btn-sm primary-button m-1" target="_blank"
+                        href="https://docs.google.com/forms/d/e/1FAIpQLSc1fyRbQ9ziaJsYf1t942vak0ikYadlyVZt0YVQsZICZ4EJVA/viewform"
+                        role="button">VOLUNTEER</a>
                 </div>
             </div>
         </div>
@@ -112,8 +114,10 @@
 
                 <h1 class="text-center">WE BELIEVE IN A WORLD WHERE EVERY CHILD CAN READ</h1>
                 <div class="text-center">
-                    <a class="btn  primary-button m-1" href="#" role="button">DONATE</a>
-                    <a class="btn primary-button m-1" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSc1fyRbQ9ziaJsYf1t942vak0ikYadlyVZt0YVQsZICZ4EJVA/viewform" role="button">VOLUNTEER</a>
+                    <a class="btn  primary-button m-1" href="#" role="button" data-toggle="modal" data-target="#donateModal">DONATE</a>
+                    <a class="btn primary-button m-1" target="_blank"
+                        href="https://docs.google.com/forms/d/e/1FAIpQLSc1fyRbQ9ziaJsYf1t942vak0ikYadlyVZt0YVQsZICZ4EJVA/viewform"
+                        role="button">VOLUNTEER</a>
                 </div>
             </div>
         </div>
@@ -169,14 +173,16 @@
                 <div class="col-md-6 volunteer  wow bounceInUp">
                     <div>
                         <h1>Become a volunteer, lets inspire these kids</h1>
-                        <a class="btn primary-button btn-lg mt-4" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSc1fyRbQ9ziaJsYf1t942vak0ikYadlyVZt0YVQsZICZ4EJVA/viewform" role="button">APPLY NOW!</a>
+                        <a class="btn primary-button btn-lg mt-4" target="_blank"
+                            href="https://docs.google.com/forms/d/e/1FAIpQLSc1fyRbQ9ziaJsYf1t942vak0ikYadlyVZt0YVQsZICZ4EJVA/viewform"
+                            role="button">APPLY NOW!</a>
                     </div>
 
                 </div>
 
                 <div class="col-md-6 text-right donate  wow bounceInUp">
                     <div class="donate-text-wrapper">
-                        <a class="btn secondary-button btn-lg mb-4" href="#" role="button">DONATE NOW!</a>
+                        <a class="btn secondary-button btn-lg mb-4" href="#" role="button" data-toggle="modal" data-target="#donateModal">DONATE NOW!</a>
                         <h1>We can't achieve our goals without your help</h1>
                     </div>
 
@@ -444,6 +450,35 @@
     <!-- /FOOTER -->
 
 
+    <!-- DONATE MODAL -->
+    <!-- Modal -->
+    <div class="modal fade " id="donateModal" tabindex="-1" >
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="donateModalLabel">DONATE</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h3>1. Donate via Mobile Money</h3>
+                    <h5>MTN:  054 864 1147</h5>
+                    <br><br>
+                    <h3>2. Donate via DonnorBox</h3>
+                    <a class="btn  primary-button m-1" href="https://donorbox.org/feeding-the-orphans" target="_blank">CLICK HERE TO MAKE DONATION</a>
+
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /DONATE MODAL -->
+
 
 
     <!-- Font awesome -->
@@ -470,7 +505,7 @@
     <script
         src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
 
-    <script src="js/main.js?v=2020-06-02T12:29"></script>
+    <script src="js/main.js?v=2020-06-02T15:29"></script>
 
 </body>
 
