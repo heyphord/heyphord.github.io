@@ -161,7 +161,7 @@ section hr{
 
 #main-header li{
 font-size: 2em;
-margin-right: 30px;
+margin-right: 20px;
 }
 
 #main-header li a.active , #main-header li a:hover {
@@ -252,8 +252,8 @@ right: 1%;
 }
 #gallery .gallery-item{
 
-  width: 200px; 
-  height: 250px;
+  /* width: 200px;  */
+  /* height: 250px; */
   border: var(--secondary-color) 1px solid;
   /* margin-right: 10px;; */
   /* border: #E4BF64 5px solid; */
@@ -274,14 +274,12 @@ right: 1%;
 \*----------------------------*/
 
 #team .team-item{
-  width: 200px;
+  /* width: 100px; */
 
 }
 
-#team .img-wrapper{
-  /* width: 200px;
-  height: 250px; */
-  /* margin: auto; */
+#team h6{
+  color: var(--primary-color)
 }
 #team img{
   width: 100%;
@@ -315,6 +313,7 @@ right: 1%;
   background-color: var(--primary-color);
   color: white;
   margin-top: -10px;
+  padding: 20px;
 }
 
 #footer h3, h6{
@@ -335,7 +334,12 @@ right: 1%;
 	13 -> RESPONSIVE
 ===========================================================*/
 
-@media only screen and (max-width: 1201px) {}
+@media only screen and (max-width: 1201px) {
+  #main-header li{
+    font-size: 1.5em;
+    
+    }
+}
 
 @media only screen and (max-width: 991px) {}
 
