@@ -238,7 +238,7 @@ bottom: 2%;
 right: 1%;
 }
 #support h1{
-
+  
   color: white;
 }
 
@@ -252,8 +252,8 @@ right: 1%;
 }
 #gallery .gallery-item{
 
-  height: 250px;
   width: 200px; 
+  height: 250px;
   border: var(--secondary-color) 1px solid;
   /* margin-right: 10px;; */
   /* border: #E4BF64 5px solid; */
@@ -263,13 +263,14 @@ right: 1%;
 #gallery .gallery-item img{
 
   height: auto;
-  width: 250px; 
+  width: 100%; 
+  
   /* border-radius: 50%; */
   /* margin: auto; */
 } 
 
 /*----------------------------*\
-	Contact Us
+	Team
 \*----------------------------*/
 
 #team .team-item{
@@ -277,8 +278,14 @@ right: 1%;
 
 }
 
+#team .img-wrapper{
+  /* width: 200px;
+  height: 250px; */
+  /* margin: auto; */
+}
 #team img{
   width: 100%;
+  height: auto;
 }
 /*----------------------------*\
 	Contact Us
@@ -334,34 +341,36 @@ right: 1%;
 
 @media only screen and (max-width: 767px) {
 
-  
-
-  /* carousel */
-  #carousel .carousel-image-wrapper img{
-    height: 250px;
-  }
-  
-  #carousel .carousel-text h1{
-    
-    font-size: 1.2em;  
-  }
 }
 
 @media only screen and (max-width: 480px) {
-  /* main header */
-  #main-header .navbar-brand{
-  font-size: 2em;
+/*----------------------------*\
+	FRONT PAGE CAPTION
+\*----------------------------*/
+
+  #frontpage-caption{
+  
+    height: 400px;
+    padding-top: 8%;
+  }
+  
+  
+  #frontpage-caption h1{
+    font-size: 2.5em;
   }
 
-  #main-header img{
-      height: 50px;
+/*----------------------------*\
+	SUPPORT
+\*----------------------------*/
+  
+  #support .volunteer{
+  
+    height: 280px;
   }
-
-  #main-header li{
-    font-size: 1.5em;
-    
+  
+  #support .donate{
+  height: 280px;
   }
-
   
 
 }
