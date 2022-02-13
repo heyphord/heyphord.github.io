@@ -1,0 +1,1 @@
+This portfolio website was designed and implemented from scratch by Hayford. using Bootstrap 5, animate.css and ionicons
