@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.a2d8994c.css",
-    "main.js": "/static/js/main.24630261.js",
+    "main.js": "/static/js/main.7d243025.js",
     "static/js/787.95e33119.chunk.js": "/static/js/787.95e33119.chunk.js",
     "static/media/afrobeats-logo.jpg": "/static/media/afrobeats-logo.95e7b0f19a10876dae94.jpg",
     "static/media/3.png": "/static/media/3.adf8810bd6e900991c6f.png",
     "index.html": "/index.html",
     "main.a2d8994c.css.map": "/static/css/main.a2d8994c.css.map",
-    "main.24630261.js.map": "/static/js/main.24630261.js.map",
+    "main.7d243025.js.map": "/static/js/main.7d243025.js.map",
     "787.95e33119.chunk.js.map": "/static/js/787.95e33119.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a2d8994c.css",
-    "static/js/main.24630261.js"
+    "static/js/main.7d243025.js"
   ]
 }
